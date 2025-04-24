@@ -1,0 +1,23 @@
+#box {
+    display: flex;
+    flex-direction: row;    
+    /* flex-direction: column; */
+
+    justify-content: center;
+    
+    align-items: center;
+    /* align-items: end; */
+    /* align-items: start; */
+
+    width: 1000px;
+    height: 1000px;
+
+    background-color: pink;
+}
+
+#a{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    
+}

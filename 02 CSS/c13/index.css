@@ -1,0 +1,161 @@
+body {
+    background-image: url('https://upload3.inven.co.kr/upload/2021/02/25/bbs/i15745445892.jpg');
+}
+#myLayout {
+    background-color: cornflowerblue;
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#top {
+    background-color: red;
+    width : 1600px; height: 120px;
+    display: flex;
+}
+
+    #top_left{
+        background-color: skyblue;
+        position:absolute;    
+    
+    }
+
+        #logo {
+            width: 100px; height: 100px; margin: 10px;
+            float: left;
+        }
+        #homepage_name {
+            font-size: 1.2em; font-style: italic; font-weight: 600;
+            color :whitesmoke;
+            float: left;
+            margin-top: 60px;
+        }
+
+    #top_banner {
+        width: 1600px;
+        height: 120px;
+        background-color: pink;    
+        text-align: center; 
+    }
+
+
+#nav {
+    background-color: gray;
+    width: 1600px;
+    height: 30px;
+    display: flex;
+    justify-content: center;    /* 수평(가로) 정렬이 가운데로 됨 */
+    align-items: center;        /* 수직(세로) 정렬이 가운데로 됨 */
+}
+
+    #nav_content{
+        background-color: yellow;
+    }
+
+#mid {
+    background-color: salmon;
+    height : 800px;
+    display: flex;
+}
+    #mid_left {
+        background-color: yellowgreen;
+        width : 200px;
+    }
+    #mid_mid {
+        background-color: salmon;
+        width: 1200px;
+    }
+    #mid_right {
+        background-color: blueviolet;
+        width: 200px;
+    }
+    
+#bot {
+    background-color: black; 
+    width: 1600px; height:100px;
+    position: fixed;
+    bottom: 10px;
+
+    font-size: 0.8em;
+    color: white; 
+}
+
+
+
+#banner {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#login {
+    width: 160px;
+    height: 90px;
+    background-color: yellow;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+    #login_id {
+        width: 150px;
+    }
+
+    #login_pw {
+        width: 150px;
+    }
+
+#board {
+    background-color: orangered;
+    width : 160px;
+    height: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 10px;    
+    text-align: center;
+}    
+
+    .board_title {
+        color:darkturquoise;
+        font-size: 1.2em;
+        font-weight: 600;
+        font-style: italic;
+        text-align: center;        
+    }
+
+#board2 {
+    background-color: pink;
+    width : 160px;
+    height: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 10px;  
+    text-align: center; 
+
+}
+
+#board3 {
+    background-color: royalblue;
+    width : 160px;
+    height: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 10px;  
+    text-align: center; 
+
+}
+
+.mid_img_box {
+    width:220px;
+    height: 220px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: paleturquoise;
+}
+
+.right_banner {
+    width: 200px;    
+}

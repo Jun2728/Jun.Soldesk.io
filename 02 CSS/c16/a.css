@@ -1,0 +1,28 @@
+#x{
+    display: flex;
+}
+
+.z{
+    width:100px;
+    height:100px;
+}
+
+.zz{
+    margin:30px;
+}
+
+#a{
+    background-color: red;
+}
+#b{
+    background-color: orange;
+}
+#c{
+    background-color: yellow;
+}
+#d{
+    background-color: green;
+}
+#e{
+    background-color: blue;
+}

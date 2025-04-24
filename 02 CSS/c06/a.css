@@ -1,0 +1,63 @@
+#logo{
+    width:100px;
+    height:100px;
+}
+#top_banner{
+    width:600px;
+    height:100px;
+}
+
+body {
+    background-color: skyblue;
+}
+
+#box{
+    display: flex;
+    width: 1200px;
+}
+#left{
+    background-color: fuchsia;
+    width: 700px;
+    height: 800px;
+}
+#right{
+    background-color: yellow;
+    width: 250px;
+    height: 800px;
+    text-align: center;
+}
+#left_1{
+    background-color: greenyellow;
+    width: 800px;
+    height: 100px;
+}
+#left_2{
+    background-color: darkred;
+    width: 800px;
+    height: 60px;
+    display: flex;
+    text-align: center;
+}
+#left_3{
+    background-color: blueviolet;
+    width: 700px;
+    height: 300px;
+    display: flex;
+}
+.menu{
+    width:80px;
+    padding: 6px;
+    text-align: center;
+}
+#left_menu{
+    width:100px;
+    height: 500px;
+    background-color: aquamarine;
+    text-align: center;
+}
+#content{
+    width: 600px;
+    height: 640px;
+    background-color: whitesmoke;
+    text-align: center;
+}

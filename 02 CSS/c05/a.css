@@ -1,0 +1,47 @@
+body {
+    background-color: palegoldenrod;
+}
+
+#top {
+    width: 800px;
+    height: 200px;
+    background-color: aquamarine;
+    display: flex;
+}
+
+#mid {
+    width: 800px;
+    height: 500px;
+    background-color: greenyellow;
+}
+
+#bot {
+    width: 800px;
+    height: 200px; 
+    background-color: blue;
+    display: flex;
+}
+
+#top_left {
+    width: 200px;
+    height: 100px;
+    background-color: blueviolet;
+}
+
+#top_right {
+    width: 600px;
+    height: 100px;
+    background-color: coral;
+}
+
+#bot_left {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
+
+#bot_right {
+    width: 600px;
+    height: 200px;
+    background-color: brown;
+}
